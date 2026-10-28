@@ -11,4 +11,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.6" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ShipmentTracking.Application\ShipmentTracking.Application.csproj" />
+    <ProjectReference Include="..\ShipmentTracking.Infrastructure\ShipmentTracking.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
