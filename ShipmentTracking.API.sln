@@ -5,6 +5,17 @@ VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipmentTracking.API", "ShipmentTracking.API\ShipmentTracking.API.csproj", "{06C32A11-C643-4A35-BE99-92EB1F3A90C1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipmentTracking.Domain", "ShipmentTracking.Domain\ShipmentTracking.Domain.csproj", "{B5CD771B-9962-448B-8C33-BDDE195344CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipmentTracking.Application", "ShipmentTracking.Application\ShipmentTracking.Application.csproj", "{78A3B755-739F-47A7-A7C8-22BA00B84B34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipmentTracking.Infrastructure", "ShipmentTracking.Infrastructure\ShipmentTracking.Infrastructure.csproj", "{630CE7D5-E829-4CAC-9EA4-854CCADAFCDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +26,18 @@ Global
 		{06C32A11-C643-4A35-BE99-92EB1F3A90C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06C32A11-C643-4A35-BE99-92EB1F3A90C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06C32A11-C643-4A35-BE99-92EB1F3A90C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5CD771B-9962-448B-8C33-BDDE195344CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5CD771B-9962-448B-8C33-BDDE195344CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5CD771B-9962-448B-8C33-BDDE195344CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5CD771B-9962-448B-8C33-BDDE195344CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A3B755-739F-47A7-A7C8-22BA00B84B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A3B755-739F-47A7-A7C8-22BA00B84B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A3B755-739F-47A7-A7C8-22BA00B84B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A3B755-739F-47A7-A7C8-22BA00B84B34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630CE7D5-E829-4CAC-9EA4-854CCADAFCDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630CE7D5-E829-4CAC-9EA4-854CCADAFCDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630CE7D5-E829-4CAC-9EA4-854CCADAFCDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630CE7D5-E829-4CAC-9EA4-854CCADAFCDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
